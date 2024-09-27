@@ -37,7 +37,7 @@ const Hits = ({ searchState, searchResults }: HitsProps) => {
         <div className="max-h-56 overflow-y-auto md:max-h-[20rem]">
           <Combobox.Options className="w-full p-4">
             {searchResults.hits.map((hit: OptionProp) => (
-              <Combobox.Option key={hit.objectID} value={`/Docs/${hit.path}`}>
+              <Combobox.Option key={hit.objectID} value={`/Support/${hit.path}`}>
                 {({ active, selected }) => (
                   <div
                     className={`flex flex-row items-center justify-between gap-4 rounded-xl px-4 py-2 text-sm text-slate-700 ${

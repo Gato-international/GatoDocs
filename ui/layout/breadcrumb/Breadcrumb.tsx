@@ -7,7 +7,7 @@ const Breadcrumb = ({ data }: any) => {
       className={`not-prose order-first mb-4 inline-flex h-4 flex-row items-center space-x-2 text-sm font-semibold text-slate-500 dark:text-white md:sticky`}
     >
       <Link
-        href={"/Docs"}
+        href={"/"}
         className="flex flex-row gap-1 hover:text-slate-600 hover:dark:text-slate-200"
       >
         <>
@@ -21,7 +21,7 @@ const Breadcrumb = ({ data }: any) => {
             <div className="flex flex-row gap-2" key={index}>
               <div>/</div>
               <Link
-                href={`/Docs/${data.slice(0, index + 1).join("/")}`}
+                href={`/Support/${data.slice(0, index + 1).join("/")}`}
                 className={`${
                   index == data.length - 1 && "font-black text-primary-500"
                 }`}

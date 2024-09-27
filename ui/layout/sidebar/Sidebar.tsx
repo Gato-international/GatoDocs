@@ -62,13 +62,13 @@ function Sidebar() {
         </nav>
         <div className="w-full flex-none text-center text-sm font-bold dark:text-white">
           <p>
-            Built with ❤️ and{" "}
+            Built by{" "}
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/dishwasher-detergent/CornDocs"
+              href="https://gatosports.com"
             >
-              CornDocs
+              Gato-international
             </a>
           </p>
         </div>

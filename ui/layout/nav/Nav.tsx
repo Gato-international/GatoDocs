@@ -21,10 +21,10 @@ function Nav() {
                 <ul className="flex h-full items-center space-x-4">
                   <li>
                     <Link
-                      href="/Docs/"
+                      href="/Support/"
                       className="block rounded-xl p-2 hover:bg-slate-200 hover:dark:bg-slate-800"
                     >
-                      Docs
+                      Manual
                     </Link>
                   </li>
                 </ul>

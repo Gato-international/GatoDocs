@@ -16,7 +16,7 @@ export default function Logo() {
     >
       <>
         {logo && (
-          <span className="relative grid h-10 place-items-center overflow-hidden">
+          <span className="relative grid h-20 place-items-center overflow-hidden">
             <Image
               style={{ objectFit: "contain", objectPosition: "center" }}
               src={darkmode && logo.darkMode ? logo.darkMode : logo.src}

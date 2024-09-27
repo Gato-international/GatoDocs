@@ -9,10 +9,10 @@ module.exports = {
     algolia_index: "dev_corndocs",
   },
   project: {
-    name: "CornDocs",
-    url: "https://www.corndocs.com",
+    name: "GatoDocs",
+    url: "https://gatosports.com",
     github: {
-      repo: "https://github.com/dishwasher-detergent/CornDocs",
+      repo: "https://gatosports.com",
       usesMain: false,
     },
     logo: {
@@ -27,9 +27,9 @@ module.exports = {
         custom: {
           path: "index",
         },
-        title: "Build documentation that will impress your friends and family.",
+        title: "Explore Comprehensive Product Manuals and Guides",
         tagLine:
-          "CornDocs lets you easily create documentation to show off your projects!",
+          "Get the Most Out of Your Gato sports Gear!",
       },
     },
   },
